@@ -1,0 +1,16 @@
+{
+  "name": "git-workshop",
+  "version": "0.0.0",
+  "description": "Git revert workshop for continuous integration and branching experiments",
+  "private": true,
+  "license": "MIT",
+  "author": "Stefan Boos <kontakt@boos.systems>",
+  "type": "commonjs",
+  "main": "frontend/main.js",
+  "scripts": {
+    "start": "cd simulation && node main.js"
+  },
+  "dependencies": {
+    "simple-git": "^3.28.0"
+  }
+}
